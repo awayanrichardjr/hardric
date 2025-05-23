@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.3s ease;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+/* Add a hover effect to links */
+a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+/* Add a transition effect to all elements */
+* {
+    transition: all 0.3s ease;
+}
+/* Add a smooth scroll effect */
+html {
+    scroll-behavior: smooth;
+}
+/* Add a responsive design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
+/* Add a dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+    a {
+        color: #BB86FC;
+    }
+    a:hover {
+        color: #3700B3;
+    }
+}
+/* Add a light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    a {
+        color: #1E88E5;
+    }
+    a:hover {
+        color: #0D47A1;
+    }
+}
+/* Add a print style */
+@media print {
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    a {
+        color: #000000;
+    }
+    a:hover {
+        color: #000000;
+    }
+}
+/* Add a focus style */
+a:focus {
+    outline: 2px solid #007BFF;
+    outline-offset: 2px;
+}
+/* Add a visited link style */
+a:visited {
+    color: #6c757d;
+}
+/* Add a visited link hover style */
+a:visited:hover {
+    color: #5a6268;
+}
+/* Add a focus-visible style */
+a:focus-visible {
+    outline: 2px solid #007BFF;
+    outline-offset: 2px;
+}
+/* Add a focus-within style */
+a:focus-within {
+    outline: 2px solid #007BFF;
+    outline-offset: 2px;
+}
+/* Add a focus-visible-within style */
+a:focus-visible-within {
+    outline: 2px solid #007BFF;
+    outline-offset: 2px;
+}
