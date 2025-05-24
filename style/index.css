@@ -1,0 +1,38 @@
+.nav {
+    background-color: transparent;
+
+    position: absolute;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav :where(ul) {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav :where(a) {
+    display: block;
+    padding: 1rem 2rem;
+    color: grey;
+}
+
+.nav :where(a:hover) {
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.header h1 {
+    color: #333;
+    animation: headerAnimation 0.5s ease-in-out;
+}
