@@ -36,3 +36,19 @@
     color: #333;
     animation: headerAnimation 0.5s ease-in-out;
 }
+
+.nav-menu {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-menu {
+        display: block;
+        /* Show menu icon */
+        cursor: pointer;
+    }
+}
